@@ -1,0 +1,411 @@
+{
+    "countries":[
+        {
+            "country":"US",
+            "confirmed": 746379 
+        },
+        {
+            "country":"Spain",
+            "confirmed": 195944
+        },
+        {
+            "country":"Italy",
+            "confirmed": 178972
+        },
+
+        {
+            "country":"France",
+            "confirmed": 152996
+        },
+        {
+            "country":"Germany",
+            "confirmed": 145184 
+        },
+
+        {
+            "country":"United Kingdom",
+            "confirmed": 121172 
+        },
+
+        {
+            "country":"Turkey",
+            "confirmed": 86306 
+        },
+
+        {
+            "country":"China",
+            "confirmed": 83805 
+        },
+        {
+            "country":"Iran",
+            "confirmed": 82211 
+        },
+        {
+            "country":"Russia",
+            "confirmed": 42853 
+        },
+        {
+            "country":"Belgium",
+            "confirmed": 38496 
+        },
+
+        {
+            "country":"Brazil",
+            "confirmed": 37437
+        },
+        {
+            "country":"Canada",
+            "confirmed": 34979 
+        },
+        {
+            "country":"Netherlands",
+            "confirmed": 32835 
+        },
+        {
+            "country":"Switzerland",
+            "confirmed": 27740 
+        },
+        {
+            "country":"Portugal",
+            "confirmed": 20206
+        },
+        {
+            "country":"India",
+            "confirmed": 17615
+        },
+        {
+            "country":"Peru",
+            "confirmed": 15628 
+        },
+        {
+            "country":"Ireland",
+            "confirmed": 15251 
+        },
+        {
+            "country":"Austria",
+            "confirmed": 14749 
+        },
+        {
+            "country":"Sweden",
+            "confirmed": 14385 
+        },
+        {
+            "country":"Israel",
+            "confirmed": 13491 
+        },
+        {
+            "country":"Japan",
+            "confirmed": 10797 
+        },
+        {
+            "country":"South Korea",
+            "confirmed": 10661 
+        },
+        {
+            "country":"Chile",
+            "confirmed": 10088 
+        },
+        {
+            "country":"Saudi Arabia",
+            "confirmed": 9362 
+        },
+        {
+            "country":"Poland",
+            "confirmed": 9287 
+        },
+        {
+            "country":"Romania",
+            "confirmed": 8746 
+        },
+        {
+            "country":"Pakistan",
+            "confirmed": 8348 
+        },
+        {
+            "country":"Denmark",
+            "confirmed": 7580 
+        },
+        {
+            "country":"Mexico",
+            "confirmed": 7497 
+        },
+        {
+            "country":"Norway",
+            "confirmed": 7078 
+        },
+        {
+            "country":"United Arab Emirates",
+            "confirmed": 6781 
+        },
+       
+        {
+            "country":"Singapore",
+            "confirmed": 6588 
+        },
+        {  
+            "country":"Indonesia",
+            "confirmed": 6575 
+        },
+        {
+            "country":"Australia",
+            "confirmed": 6547 
+        },
+        {
+            "country":"Philippines",
+            "confirmed": 6259 
+        },
+        {
+            "country":"Ukraine",
+            "confirmed": 5449 
+        },
+        {
+            "country":"Qatar",
+            "confirmed": 5448 
+        },
+        {
+            "country":"Malaysia",
+            "confirmed": 5389 
+        },
+        {
+            "country":"Belarus",
+            "confirmed": 4779 
+        },
+        {
+            "country":"Dominican Republic",
+            "confirmed": 4680 
+        },
+        {
+            "country":"Panama",
+            "confirmed": 4273 
+        },
+        {
+            "country":"Finland",
+            "confirmed": 3783 
+        },
+        {
+            "country":"Colombia",
+            "confirmed": 3621 
+        },
+        {
+            "country":"Luxembourg",
+            "confirmed": 3550 
+        },
+        {
+            "country":"South Africa",
+            "confirmed": 3158 
+        },
+        {
+            "country":"Egypt",
+            "confirmed": 3144 
+        },
+        {
+            "country":"Morocco",
+            "confirmed": 2855 
+        },
+        {
+            "country":"Argentina",
+            "confirmed": 2839 
+        },
+        {
+            "country":"Thailand",
+            "confirmed": 2765 
+        },
+        {
+            "country":"Algeria",
+            "confirmed": 2629 
+        },
+        {
+            "country":"Bangladesh",
+            "confirmed": 2456 
+        },
+        {
+            "country":"Greece",
+            "confirmed": 2235 
+        },
+        {
+            "country":"Hungary",
+            "confirmed": 1916 
+        },
+        {
+            "country":"Kuwait",
+            "confirmed": 1915 
+        },
+        {
+            "country":"Iceland",
+            "confirmed": 1771 
+        },
+        {
+            "country":"Uzbekistan",
+            "confirmed": 1565 
+        },
+        {
+            "country":"Iraq",
+            "confirmed": 1539 
+        },
+        {
+            "country":"New Zealand",
+            "confirmed": 1431 
+        },
+        {
+            "country":"Oman",
+            "confirmed": 1266 
+        },
+        {
+            "country":"Cuba",
+            "confirmed": 1035 
+        },
+        {
+            "country":"Afghanistan",
+            "confirmed": 996 
+        },
+        {
+            "country":"Ghana",
+            "confirmed": 834 
+        },
+        {
+            "country":"Costa Rica",
+            "confirmed": 660 
+        },
+        {
+            "country":"Kyrgyzstan",
+            "confirmed": 554 
+        },
+        {
+            "country":"Nigeria",
+            "confirmed": 542 
+        },
+        {
+            "country":"Uruguay",
+            "confirmed": 517 
+        },
+        {
+            "country":"Taiwan",
+            "confirmed": 420 
+        },
+        {
+            "country":"Jordan",
+            "confirmed": 417 
+        },
+        {
+            "country":"Sri Lanka",
+            "confirmed": 271 
+        },
+        {
+            "country":"Kenya",
+            "confirmed": 270 
+        },
+        {
+            "country":"Vietnam",
+            "confirmed": 268 
+        },
+        {
+            "country":"Guatemala",
+            "confirmed": 257 
+        },
+        {
+            "country":"Mali",
+            "confirmed": 224 
+        },
+        {
+            "country":"Jamaica",
+            "confirmed": 173 
+        },
+        {
+            "country":"Tanzania",
+            "confirmed": 170
+        },
+        {
+            "country":"Somalia",
+            "confirmed": 164
+        },
+        {
+            "country":"Cambodia",
+            "confirmed": 122 
+        },
+        {
+            "country":"Madagascar",
+            "confirmed": 121 
+        },
+        {
+            "country":"Burma",
+            "confirmed": 111 
+        },
+        {
+            "country":"Monaco",
+            "confirmed": 94
+        },
+        {
+            "country":"Liberia",
+            "confirmed": 91
+        },
+        {
+            "country":"Zambia",
+            "confirmed": 61
+        },
+        {
+            "country":"Bahamas",
+            "confirmed": 55
+        },
+        {
+            "country":"Uganda",
+            "confirmed": 55 
+        },
+        {
+            "country":"Maldives",
+            "confirmed": 52
+        },
+        {
+            "country":"Libya",
+            "confirmed": 49 
+        },
+        {
+            "country":"Haiti",
+            "confirmed": 44
+        },
+        {
+            "country":"Syria",
+            "confirmed": 39
+        },
+        {
+            "country":"Mongolia",
+            "confirmed": 32 
+        },
+        {
+            "country":"Nepal",
+            "confirmed": 31 
+        },
+        {
+            "country":"Zimbabwe",
+            "confirmed": 25 
+        },
+        {
+            "country":"Botswana",
+            "confirmed": 20 
+        },
+        {
+            "country":"Fiji",
+            "confirmed": 17 
+        },
+
+        {
+            "country":"Dominica",
+            "confirmed": 16 
+        },
+        {
+            "country":"Central African Republic",
+            "confirmed": 12 
+        },
+        {
+            "country":"Papua New Guinea",
+            "confirmed": 7 
+        },
+        {
+            "country":"Western Sahara",
+            "confirmed": 6 
+        },
+        {
+            "country":"Bhutan",
+            "confirmed": 5 
+        }
+    ]
+}

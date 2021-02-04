@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px auto;
+
+}
+
+span{
+    color: #3CC78F;
+    font-weight: 300;
+}
+
+main {
+    clear: both;
+    margin: 10px auto;
+}
+
+#btn-prevention {
+    background-color: #3CC78F;
+    color: white;
+    border-radius: 10em;
+    width: 50%;
+}
+
+#btn-cure {
+    background-color: #3CC78F;
+    color: white;
+    border-radius: 10em;
+    width: 50%;
+}
+
+#btn-vaccine {
+    background-color: #3CC78F;
+    color: white;
+    border-radius: 10em;
+    width: 50%;
+}
+
+#btn-quarantine {
+    background-color: #3CC78F;
+    color: white;
+    border-radius: 10em;
+    width: 70%;
+}
+
+#image_prevention {
+    margin-top: 5%;
+    border-radius: 3em;
+    width: 50%;
+    float: left;
+}
+
+div.prevention {
+    float: right;
+    padding-top: 80px;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+}
+
+div.prevention p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.prevention h1 {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #3CC78F;
+    border-width: thin;
+}
+
+#image_cure {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    border-radius: 3em;
+    padding-left: 0px;
+    width: 50%;
+    float: right;
+    padding-bottom: 0px;
+    border-radius: 3em;
+}
+
+div.cure {
+    clear: both;
+    float: left;
+    width: 50%;
+    padding-bottom: 450px;
+    height: 500px;
+    padding-top: 10%;
+    text-align: center;
+}
+
+div.cure p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.cure h1 {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #3CC78F;
+    border-width: thin;
+}
+
+#vaccine-images {
+    width: 90%;
+    margin: auto;
+}
+
+#image_vaccine1 {
+    margin: auto;
+    clear: both;
+    float: left;
+    padding: 20px;
+    width: 50%;
+    border-radius: 3em;
+}
+
+#image_vaccine2 {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    float: right;
+    border-radius: 3em;
+}
+
+div.vaccine {
+    margin: auto;
+    text-align: center;
+    clear: both;
+    width: 90%;
+    padding-top: 3%;
+    padding-bottom: 10px;
+    border-radius: 2em;
+    background-color: aliceblue;
+}
+
+div.vaccine p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.vaccine h1 {
+    color: white;
+    border-bottom: 1px solid #3CC78F;
+    border-width: thin;
+
+}
+
+#image_qurantine {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 50%;
+    float: right;
+    border-radius: 3em;
+}
+
+div.qurantine {
+    padding-top: 100px;
+    clear: both;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+div.qurantine p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+div.qurantine h1 {
+    text-align: center;
+    color: white;
+    border-width: thin;
+}
+
+div.tagline{
+    clear: both;
+    font-size: 3em;
+}
+
+#tagline-1{
+    float: left;
+}
+
+#tagline-2{
+    clear: both;
+    float: right;
+}
+
+div.hashtags{
+    border: 1px solid #3CC78F;
+    clear: both;
+    padding: 10px;
+    border-radius: 3em;
+    margin-bottom: 30px;
+}
+
+.hashtags h1{
+    text-align: center;
+    color: #3CC78F;
+}
+
+footer {
+    clear: both;
+}
+
+
+/*
+responsive for mobile
+*/
+
+@media (max-width: 768px) {
+
+    .toggle-menu {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .toggle-menu:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+
+    .toggle-menu.active:before {
+        content: '\f00d';
+    }
+
+    .footer-area {
+        display: block;
+        text-align: center;
+    }
+
+    body {
+        font-size: 0.9em;
+        padding: 0px;
+        float: none;
+        flex-wrap: wrap;
+    }
+
+    div {
+        display: block;
+        margin: auto;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    div.prevention {
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    
+    div.cure {
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    
+    div.vaccine {
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    
+    div.qurantine {
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    
+    div.hashtags{
+        display: block;
+        margin: auto;
+    }
+
+    div.tagline{
+        display: block;
+        text-align: center;
+    }
+
+
+}

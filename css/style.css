@@ -1,0 +1,597 @@
+/*Open Sans Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 90%;
+    margin: 10px auto;
+    background-color: #eee;
+}
+
+h1, h2, h3{
+    font-family: 'Noto Serif JP', serif;
+}
+
+header {
+    position: relative;
+    /*    max-width: 1200px;*/
+    margin: 10px auto;
+}
+
+main p{
+    opacity: 0.8;
+}
+
+.top-header {
+    padding: 10px 0;
+}
+
+.top-header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.top-header ul li a {
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.top-header ul li a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.main-header {
+
+    background: #3CC78F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.logo {
+    color: #fff;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    z-index: 100;
+}
+
+/* Home main */
+.main-container {
+    margin: 2rem;
+}
+
+.main-home {
+    position: relative;
+    min-height: 650px;
+    display: flex;
+}
+
+.main-area {
+    padding-left: 2em;
+    max-width: 600px;
+}
+
+.main-area h1 {
+    margin: 0;
+    margin-top: 3em;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    letter-spacing: 0.05em;
+    color: red;
+}
+
+.main-area h2 {
+    margin: 0.5em 0;
+    text-transform: capitalize;
+    font-size: 2.5em;
+    letter-spacing: 0.01em;
+    word-spacing: 0.09em;
+}
+
+/*
+.main-area p {
+    opacity: 0.8;
+}
+*/
+
+.main-area button {
+
+    display: inline-block;
+    margin: 1em 0;
+    text-transform: uppercase;
+    color: #eee;
+    padding: 0.6em 1.5em;
+    border-radius: 2em;
+    background-color: #3CC78F;
+    border: 0;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.main-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.9;
+}
+
+.main-image img {
+    width: 550px;
+    border-radius: 50%;
+}
+
+/* End of Home Main*/
+
+/* Spread */
+.spread-home{
+    min-height: 450px;
+}
+.spread-area {
+    text-align: center;
+}
+
+.spread-area h2 {
+    margin: 0.5em 0;
+    text-transform: capitalize;
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    word-spacing: 0.09em;
+}
+
+.spread-area p {
+    max-width: 700px;
+    margin: auto;
+}
+
+.spread-div {
+    display: flex;
+}
+
+.spread-div .cause {
+    margin: 2em;
+    padding: 1.5em;
+    width: 30em;
+
+}
+
+.cause i {
+    font-size: 4em;
+}
+
+.cause h3 {
+    text-transform: capitalize;
+    font-size: 1.05em;
+    letter-spacing: 0.05em;
+}
+
+/* End of Spread */
+
+
+
+/* Symptoms */
+
+.symptom-home{
+    min-height: 550px;
+}
+
+.symptom-image img {
+    margin-top: 7em;
+    margin-left: 2em;
+    width: 40em;
+    border-radius: 1em;
+    float: left;
+}
+
+.symptom-div {
+    margin-left: 50em;
+}
+
+.symptom-div h2 {
+    margin: 0.5em 0;
+    text-transform: capitalize;
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    word-spacing: 0.09em;
+}
+
+.symptom-div p {
+    opacity: 0.8;
+}
+
+
+.symptom_list {
+    display: flex;
+    opacity: 0.8;
+}
+
+.symptom_list .list-right {
+    margin-left: 5em;
+}
+
+.symptom-div button {
+
+    display: inline-block;
+    margin: 1em 0;
+    text-transform: uppercase;
+    color: #eee;
+    padding: 0.6em 1.5em;
+    border-radius: 2em;
+    background-color: #3CC78F;
+    border: 0;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* Prevent */
+
+.protect-home{
+    min-height: 700px;
+}
+.protect-area {
+    text-align: center;
+
+}
+
+.protect-area h2 {
+    margin: 1em 0;
+    /*    text-transform: capitalize;*/
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    word-spacing: 0.09em;
+}
+
+.protect-area p{
+    max-width: 700px;
+    margin: auto;
+}
+
+.protect-text {
+    max-width: 650px;
+}
+
+.protect-div h3 {
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+}
+
+.protect-image {
+    position: relative;
+}
+
+.protect-image img {
+    float: right;
+    width: 550px;
+    border-radius: 5em;
+    margin-top: 2em;
+}
+
+.protect-text button {
+    display: inline-block;
+    margin: 1em 0;
+    text-transform: uppercase;
+    color: #eee;
+    padding: 0.6em 1.5em;
+    border-radius: 2em;
+    background-color: #3CC78F;
+    border: 0;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* Current */
+.current-home{
+    text-align: center;
+    min-height: 300px;
+}
+.current-home h2{
+    margin: 1em 0;
+    text-transform: capitalize;
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    word-spacing: 0.09em;
+}
+
+.current-home p{
+    opacity: 0.8;
+}
+
+/*CSS for total cases (Cards view)*/
+
+/*
+.list-detail {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+*/
+
+/*
+.list-detail h2 {
+
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    word-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+
+}
+*/
+
+.cards-area {
+    margin: 1em auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: inline-block;
+    background-color: #fff;
+    margin: 1rem;
+    width: 18rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+#confirmed-color {
+    background-color: #ffff99;
+}
+#probable-color {
+    background-color: #ffd699;
+}
+#death-color {
+    background-color: #ff9999;
+}
+#recovered-color {
+    background-color: #99ffcc;
+}
+
+.card-detail {
+    padding: 1.8em;
+}
+
+.card-detail p {
+    margin: 0;
+    text-align: left;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    opacity: 1;
+}
+
+.card-detail h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.card-icon {
+    position: absolute;
+    z-index: 0;
+    top: 0rem;
+    right: 0.5rem;
+    opacity: 0.2;
+    font-size: 4.5rem;
+    transform: rotate(15deg);
+}
+
+footer{
+    background-color: #3CC78F;
+    min-height: 100px;
+    font-size: 0.8em;
+    color: #000;
+    border-radius: 4px;
+}
+
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-area > div {
+    width: 20em;
+    display: inline-block;
+    padding: 1em;
+    text-align: center;
+}
+
+.footer-logo a{
+        display: block;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+#logo-footer{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-social a{
+    font-size: 2.5em;
+    padding: 0.3em;
+    color: #000;
+}
+.hashtag a{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /*Navigation*/
+    .toggle-menu {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .toggle-menu:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+
+    .toggle-menu.active:before {
+        content: '\f00d';
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.active {
+        display: block;
+        width: 100%;
+    }
+
+    nav.active ul {
+        display: block;
+    }
+
+    /*End Navigation*/
+
+    /* Home main */
+    .main-container {
+        text-align: center;
+    }
+
+    .main-area {
+        padding-left: 0;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    /* Spread */
+    .spread-home,
+    .spread-area {
+        min-height: 450px;
+    }
+
+    .spread-div {
+        flex-wrap: wrap;
+    }
+
+    /* Symptom*/
+    .symptom-image {
+        display: none;
+    }
+
+    .symptom-div {
+        margin-left: 0;
+    }
+
+    .symptom_list {
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .symptom_list .list-right {
+        margin-left: 0;
+    }
+    
+    .protect-image {
+        display: none;
+    }
+    
+    .protect-text ul{
+        text-align: left;
+    }
+
+    /*Start Card*/
+    .cards-area{
+        justify-content: space-around;
+    }
+    .cards-area .cards{
+        margin: 6px;
+    }
+    
+    /* Footer */
+    .footer-area{
+        display: block;
+        text-align: center;
+    }
+
+}

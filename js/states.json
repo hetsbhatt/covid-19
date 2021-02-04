@@ -1,0 +1,56 @@
+{
+    "states":[
+        {
+            "state":"Quebec",
+            "confirmed": 17950 
+        },
+        {
+            "state":"Ontario",
+            "confirmed": 11150 
+        },
+        {
+            "state":"Alberta",
+            "confirmed": 2562
+        },
+        {
+            "state":"British Columbia",
+            "confirmed": 1647
+        },
+        {
+            "state":"Nova Scotia",
+            "confirmed": 675
+        },
+        {
+            "state":"Saskatchewan",
+            "confirmed": 313
+        },
+        {
+            "state":"Newfoundland and Labrador",
+            "confirmed": 257
+        },
+        {
+            "state":"Manitoba",
+            "confirmed": 254
+        },
+        {
+            "state":"New Brunswick",
+            "confirmed": 118
+        },
+        {
+            "state":"Prince Edward Island",
+            "confirmed": 26
+        },
+        {
+            "state":"Grand Princess",
+            "confirmed": 13
+        },
+        {
+            "state":"Yukon",
+            "confirmed": 9
+        },
+        {
+            "state":"Northwest Territories",
+            "confirmed": 5
+        }
+    ]
+}
